@@ -31,7 +31,18 @@
     If you want to get the balance then its better to declare a uint varibale balance and set it to balance += msg.value . 
  
  
+ ## Block Timestamp Manipulation
  
+    Miners are able to manipulate the block.timestamp under these 2 constraints. 
+       1.The next timestamp is after the last block timestamp
+       2.The timestamp can not be too far into the future
+        
+       Average blocktime is about 13 seconds. Here we use 15 seconds rule of block.timestamp. Thats mean if your program not affecting varying 
+       the 15 seconds then its ok to use block.timestamp.
+    
+    
+    
+    
     
    
 
