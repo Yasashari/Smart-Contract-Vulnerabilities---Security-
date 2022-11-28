@@ -43,7 +43,9 @@
 ## 5. tx.origin phishing attack
        If code exists tx.origin then it might be vulnerable to attack. So better to use msg.sender instead of tx.origin
     
-    
+## 6. Hiding smart contracts
+       Functions or costructor set the address that having smart contracts. Make sure those address exists the same code 
+       published on etherscan or relevant blockchain scanner.
     
     
     
