@@ -40,7 +40,7 @@
        Average blocktime is about 13 seconds. Here we use 15 seconds rule of block.timestamp. Thats mean if your program not affecting varying 
        the 15 seconds then its ok to use block.timestamp.
        
-## tx.origin phishing attack
+## 5. tx.origin phishing attack
        If code exists tx.origin then it might be vulnerable to attack. So better to use msg.sender instead of tx.origin
     
     
