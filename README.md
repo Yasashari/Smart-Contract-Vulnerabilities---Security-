@@ -49,6 +49,11 @@
    
 ## 7. Hiding code - Another example
       Created a reentrancy vulnerability intentionally but no one is able withraw money from it.
+ 
+## 8. Front running 
+      hijacking the data from mem pools and do the same transaction with high gas . 
+      You can avoid this using flashbots.
+
      
     
     
