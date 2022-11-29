@@ -52,7 +52,7 @@
  
 ## 8. Front running 
       hijacking the data from mem pools and do the same transaction with high gas . 
-      You can avoid this using flashbots.
+      You can see some flash loans are attacked by frontrunners. You can avoid this using flashbots.
 
      
     
