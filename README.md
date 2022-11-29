@@ -46,6 +46,10 @@
 ## 6. Hiding smart contracts
        Functions or costructor set the address that having smart contracts. Make sure those address exists the same code 
        published on etherscan or relevant blockchain scanner.
+   
+## 7. Hiding code - Another example
+      Created a reentrancy vulnerability intentionally but no one is able withraw money from it.
+     
     
     
     
