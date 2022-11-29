@@ -53,6 +53,10 @@
 ## 8. Front running 
       hijacking the data from mem pools and do the same transaction with high gas . 
       You can see some flash loans are attacked by frontrunners. You can avoid this using flashbots.
+      
+## 9. Hack isContract
+      There is a assembly code which can be used to if there is contract on etherium address. 
+      Here you can bypass it calling it when deploying the contract. 
 
      
     
