@@ -57,7 +57,10 @@
 ## 9. Hack isContract
       There is a assembly code which can be used to if there is contract on etherium address. 
       Here you can bypass it calling it when deploying the contract. 
-
+      
+## 10. Random number hacking 
+            There is no good source of random number in solidity. In this example blockhash with previous block 
+            and blocktime is used to generate random number. But its can be computed with another contract. 
      
     
     
