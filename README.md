@@ -59,8 +59,13 @@
       Here you can bypass it calling it when deploying the contract. 
       
 ## 10. Random number hacking 
-            There is no good source of random number in solidity. In this example blockhash with previous block 
-            and blocktime is used to generate random number. But its can be computed with another contract. 
+       There is no good source of random number in solidity. In this example blockhash with previous block 
+       and blocktime is used to generate random number. But its can be computed with another contract. 
+ 
+## 11. Smart contract not having fallback 
+       If smart contract which not have fallback function in order to get ethers it might couse some errors . 
+       if call funcition not success then rest of the code which are under the call not performed. 
+       It may cause unexpected errors. Please check given example. 
      
     
     
