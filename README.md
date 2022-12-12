@@ -23,7 +23,7 @@
   
  ## 3. Selfdestruct attack
 
-    if your contract have address address(this).balance solidity command this might be a vulnerability.
+    if you get address(this).balance , it might be a vulnerability with selfdestruct . 
     
     
  ### Preventive methods of selfdestruct attack
