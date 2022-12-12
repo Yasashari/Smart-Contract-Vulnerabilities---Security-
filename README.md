@@ -1,7 +1,7 @@
 # Smart-Contract-Vulnerabilities---Security-
 ## 1. Reentrancy Attack 
     Check how to do reentrancy attack with reentrancy_vulnarable_contract . 
-    reentrancy_vulnarable_contract is not work compiler 0.8.7 . Its work 0.6.10 compiler.
+    reentrancy_vulnarable_contract is not work compiler 0.8.0 and above. Its work 0.6.10 compiler.
     reentrancy_corrected - After fixed reentracny vulnerability. 
     
 
