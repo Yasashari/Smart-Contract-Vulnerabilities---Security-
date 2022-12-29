@@ -66,6 +66,12 @@
        If smart contract which not have fallback function in order to get ethers it might couse some errors . 
        if call funcition not success then rest of the code which are under the call not performed. 
        It may cause unexpected errors. Please check given example. 
+
+## 12. Oracle price manupulation
+
+## 13. Taking flash loan and pool manupulation
+
+
      
     
     
